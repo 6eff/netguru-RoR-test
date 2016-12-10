@@ -19,11 +19,7 @@ feature 'User edits student' do
 
   scenario 'with valid input' do
     fill_in 'First name', with: 'Marcin'
-    save_and_open_page
-
     click_button 'Update Student'
-    save_and_open_page
-
     expect(page).to have_content 'Student has been updated!'
     expect(page).to have_content 'Marcin'
   end
