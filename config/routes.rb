@@ -1,9 +1,13 @@
 Rails.application.routes.draw do
   devise_for :users
-  root "devise/sessions#new"
+  root "visitors#index"
   resources :students do
     get :subjects
   end
 
-  resources :teachers 
+  resources :teachers do
+    get :subjects
+  end
+
+  get "report/subjects" => "reports#subjects"
 end
