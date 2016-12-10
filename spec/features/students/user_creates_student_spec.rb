@@ -5,7 +5,6 @@ feature 'User creates student' do
     sign_in
     expect(page).to have_content 'Logout'
     visit students_path
-    save_and_open_page
     click_on 'Add new one'
   end
 
