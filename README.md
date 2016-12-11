@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/6eff/netguru-RoR-test.svg?branch=master)](https://travis-ci.org/6eff/netguru-RoR-test)
 
+App itself https://netguru-vvv.herokuapp.com
+
 RoR Workshops
 ================
 
