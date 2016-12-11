@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/6eff/netguru-RoR-test.svg?branch=master)](https://travis-ci.org/6eff/netguru-RoR-test)
+
 RoR Workshops
 ================
 
