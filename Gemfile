@@ -30,7 +30,7 @@ end
 
 group :development, :test do
   gem 'byebug'
-  gem 'factory_girl_rails'
+  gem 'factory_girl_rails', :require => false
   gem 'faker'
   gem 'rspec-rails'
   gem 'spring'
